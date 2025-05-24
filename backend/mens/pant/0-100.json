@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pant_101",
+    "name": "Pant",
+    "type": "Track Pant",
+    "colo": "Black",
+    "size": ["S","M","L","XL","XXL"],
+    "price": 299,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men1.JPG"
+  },
+  {
+    "id": "pant_102",
+    "name": "T-Shirt",
+    "type": "Casual Pant",
+    "colo": "Sky Blue",
+    "size": ["M","L","XL","XXL"],
+    "price": 259,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG"
+  },
+  {
+    "id": "pant_103",
+    "name": "Pant",
+    "type": "3/4th Pant",
+    "colo": "Dark Blue",
+    "size": ["S","M","L","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men3.JPG"
+  },
+    {
+    "id": "pant_104",
+    "name": "Pant",
+    "type": "Casual Pant",
+    "colo": "Blue",
+    "size": ["S","M","L","XL"],
+    "price": 240,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men1.JPG"
+  },
+    {
+    "id": "pant_105",
+    "name": "Pant",
+    "type": "Track Pant",
+    "colo": "Dark Blue",
+    "size": ["S","M","L","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG"
+  },
+    {
+    "id": "pant_106",
+    "name": "Pant",
+    "type": "Casual Pant",
+    "colo": "Dark Blue",
+    "size": ["S","M","L","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men1.JPG"
+  },
+    {
+    "id": "pant_107",
+    "name": "Pant",
+    "type": "Track Pant",
+    "colo": "Dark Blue",
+    "size": ["S","M","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men3.JPG"
+  },
+  {
+    "id": "pant_108",
+    "name": "Pant",
+    "type": "Track Pant",
+    "colo": "Dark Blue",
+    "size": ["L","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG"
+  }
+]

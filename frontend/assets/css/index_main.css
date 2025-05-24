@@ -1,0 +1,118 @@
+:root {
+  --bg-light: #fff;
+  --bg-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+  --border-color: #ccc;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+body.dark-theme {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.latest_collection {
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.scroll-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-btn.left {
+  margin-right: 10px;
+}
+
+.scroll-btn.right {
+  margin-left: 10px;
+}
+
+.containers {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.child {
+  display: inline-block;
+  width: 23%;
+  flex-shrink: 0;  
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid var();
+  box-shadow: 0 0 30px var(--shadow-color);
+  background-color: #f9f9f9;
+}
+
+.image {
+  width: 80%;
+  margin: auto;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  padding: 10px;
+}
+.details table {
+    width: 100%;
+}
+tr{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 721px) and (max-width: 1180px) {
+  .child {
+    width: 32%;
+  }
+}
+
+@media (max-width: 720px) {
+  .child {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-btn {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+}

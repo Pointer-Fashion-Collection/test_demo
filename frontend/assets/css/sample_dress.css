@@ -1,0 +1,130 @@
+:root {
+  --bg-light: #fff;
+  --bg-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+  --border-color: #ccc;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+body.dark-theme {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.latest_collection {
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.containers {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns:repeat(4,20%);
+  place-content: center center;
+  gap: 2rem;
+}
+
+.child {
+  display: inline-block;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid var();
+  box-shadow: 0 0 30px var(--shadow-color);
+  background-color: #f9f9f9;
+}
+
+.image {
+  width: 80%;
+  margin: auto;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  padding: 10px;
+  font-size: 14px;
+  color: var(--text-color, #333);
+}
+
+.details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.details td {
+  padding: 4px 0;
+  font-size: 1.2rem;
+}
+
+.buy-btn {
+  padding: 6px 12px;
+  background-color: var(--btn-bg, #007bff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.buy-btn:hover {
+  background-color: var(--btn-hover, #0056b3);
+}
+@media (min-width: 721px) and (max-width: 1180px) {
+  .latest_collection {
+    width: 95%;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns:repeat(4,23%);
+    place-content: center center;
+    gap: 0.4rem;
+  }
+  .child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+    .latest_collection {
+    width: 95%;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns:repeat(2,50%);
+    place-content: center center;
+    gap: 0.4rem;
+  }
+  .child {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-btn {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+}

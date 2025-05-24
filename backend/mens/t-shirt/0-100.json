@@ -1,0 +1,105 @@
+[
+  {
+    "id": "t_shirt_101",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Black",
+    "size": ["S","M","L","XL","XXL"],
+    "price": 299,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men1.JPG",
+    "status": 1,
+    "create_date": "",
+    "update_date": ""
+  },
+  {
+    "id": "t_shirt_102",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Sky Blue",
+    "size": ["M","L","XL","XXL"],
+    "price": 259,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG",
+    "status": 1,
+    "create_date": "",
+    "update_date": ""
+
+  },
+  {
+    "id": "t_shirt_103",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Dark Blue",
+    "size": ["S","M","L","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men3.JPG",
+    "status": 1,
+    "create_date": "",
+    "update_date": ""
+  
+  },
+    {
+    "id": "t_shirt_104",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Blue",
+    "size": ["S","M","L","XL"],
+    "price": 240,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men1.JPG",
+        "status": 1,
+    "create_date": "",
+    "update_date": ""
+
+  },
+    {
+    "id": "t_shirt_105",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Dark Blue",
+    "size": ["S","M","L","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG",
+        "status": 1,
+    "create_date": "",
+    "update_date": ""
+
+  },
+    {
+    "id": "t_shirt_106",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Dark Blue",
+    "size": ["S","M","L","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men1.JPG",
+        "status": 1,
+    "create_date": "",
+    "update_date": ""
+
+  },
+    {
+    "id": "t_shirt_107",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Dark Blue",
+    "size": ["S","M","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men3.JPG",
+        "status": 1,
+    "create_date": "",
+    "update_date": ""
+
+  },
+  {
+    "id": "t_shirt_108",
+    "name": "T-Shirt",
+    "type": "Full sleve",
+    "colo": "Dark Blue",
+    "size": ["L","XL","XXL"],
+    "price": 279,
+    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG",
+        "status": 1,
+    "create_date": "",
+    "update_date": ""
+
+  }
+]
