@@ -88,18 +88,5 @@
     "create_date": "",
     "update_date": ""
 
-  },
-  {
-    "id": "t_shirt_108",
-    "name": "T-Shirt",
-    "type": "Full sleve",
-    "colo": "Dark Blue",
-    "size": ["L","XL","XXL"],
-    "price": 279,
-    "image": "https://raw.githubusercontent.com/Pointer-Fashion/json_check/main/Mens/T-shirt/1-100/men2.JPG",
-        "status": 1,
-    "create_date": "",
-    "update_date": ""
-
   }
 ]
