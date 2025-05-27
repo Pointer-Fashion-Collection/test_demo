@@ -22,7 +22,7 @@ fetch('https://ecommerce-2-x700.onrender.com/api/mens/tshirt')
             <table>
               <tr><td style="text-align:center;"><strong>${product.name}</strong></td></tr>
               <tr><td>Type: ${product.type}</td></tr>
-              <tr><td>Color: ${product.colo || 'N/A'}</td></tr>
+              <tr><td>Color: ${product.color || 'N/A'}</td></tr>
               <tr><td>Size: <select>${sizeOptions}</select></td></tr>
               <tr><td style="text-align:center;"><button class="buy-btn">Buy It</button></td></tr>
             </table>
